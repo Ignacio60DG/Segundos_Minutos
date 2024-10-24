@@ -13,9 +13,15 @@ public class Main {
         }else if (seg>=60){
 
             while (seg>=60) {
+                //min++;(Se puede poner así :O)
                 min = min+1;
                 seg = seg-60;
             }
+            /*
+            for(seg>=60 ; min++ ; seg-60){
+                sout("Hola")
+            }
+            */
             System.out.println(min+" minutos y "+seg+" segundos");
 
         }else{
