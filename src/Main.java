@@ -5,6 +5,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        System.out.println("Dime los segundos totales");
+        int iSegundosTotales=sc.nextInt();
+        int horas=iSegundosTotales/3600;
+        int minutos=iSegundosTotales/60;
+        int segundos=iSegundosTotales%60;
+
+        System.out.println(horas+" h, "+ minutos+" m, "+ segundos+" s.");
+
+        System.out.println("Dime otros segundos totales");
         int seg = sc.nextInt();
         int min = 0;
 
